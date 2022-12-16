@@ -1,0 +1,41 @@
+h1, h2{
+  margin: 10px auto;
+}
+
+.input-form {
+  background-color: rgb(127, 219, 94);
+  padding: 5px;
+}
+
+* {
+  background-color: black;
+  color: rgb(127, 219, 94);
+}
+
+input {
+  border: 2px solid rgb(127, 219, 94);
+}
+button {
+  border: 2px solid rgb(127, 219, 94);
+}
+
+a {
+  color: blue;
+}
+
+.plan {
+  border: 2px solid rgb(127, 219, 94);
+  padding: 15px 5px;
+  margin: 5px;
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+}
+
+.container {
+  border: 1px solid rgb(127, 219, 94);
+  display: flex;
+  padding: 5px;
+  width: 45%;
+}
+
