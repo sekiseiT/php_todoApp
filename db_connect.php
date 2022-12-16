@@ -6,7 +6,7 @@ function doDB(){
  
   $database = "mydb1";
  
-  $mysqli = mysqli_connect('localhost:8889','root', 'root', 'mydb1')
+  $mysqli = mysqli_connect('localhost:','', '', '')
               or die("接続に失敗しました。");
  
   mysqli_select_db($mysqli, $database)
